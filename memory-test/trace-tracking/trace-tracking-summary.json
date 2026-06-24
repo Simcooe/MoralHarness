@@ -1,0 +1,270 @@
+{
+  "answer": "Read facts. <memory>Project: deploy key is red.</memory>",
+  "durable_topics": [
+    "Project Memory"
+  ],
+  "episodic_notes": [
+    {
+      "created_at": "2026-06-24T07:43:04.874034+00:00",
+      "kind": "episodic",
+      "note_index": 0,
+      "source": "facts.txt",
+      "tags": [
+        "facts.txt"
+      ],
+      "text": "1: alpha | 2: deploy key is red | 3: memory demos should be deterministic"
+    }
+  ],
+  "file_summaries": {
+    "facts.txt": {
+      "created_at": "2026-06-24T07:43:04.868519+00:00",
+      "freshness": "64e21720be291631ed252f03c80608b78f2b8dbf2010cb74000148801b437d86",
+      "summary": "1: alpha | 2: deploy key is red | 3: memory demos should be deterministic"
+    }
+  },
+  "memory_dir": "E:\\code_py\\MoralHarness\\pico\\memory-test\\trace-tracking\\demo-workspace\\.pico\\memory",
+  "memory_files": {
+    ".pico/memory/.consolidate-lock": "released",
+    ".pico/memory/MEMORY.md": "# Durable Memory Index\n\n- [Project Memory](topics/project.md): Stable facts from trace tracking\n",
+    ".pico/memory/logs/2026/06/2026-06-24.md": "- [15:43] Project: deploy key is red.\n",
+    ".pico/memory/topics/project.md": "# Project Memory\n\n- topic: project\n- summary: Stable facts from trace tracking.\n- tags: project, trace\n- updated_at: 2026-06-24T15:30:00+08:00\n\n## Notes\n- deploy key is red\n"
+  },
+  "memory_maintenance_from_report": {
+    "auto_dream": {
+      "changed_files": [
+        ".pico/memory/MEMORY.md",
+        ".pico/memory/topics/project.md"
+      ],
+      "enabled": true,
+      "session_count": 2,
+      "session_ids": [
+        "older-0",
+        "older-1"
+      ],
+      "skip_reason": "",
+      "status": "finished",
+      "triggered": true
+    },
+    "errors": [],
+    "memory_tags_appended": [
+      {
+        "chars": 27,
+        "path": ".pico/memory/logs/2026/06/2026-06-24.md",
+        "source": "final_answer"
+      }
+    ]
+  },
+  "memory_state_from_agent_after_dream": {
+    "durable_topics": [
+      "Project Memory"
+    ],
+    "episodic_notes": [
+      {
+        "created_at": "2026-06-24T07:43:04.874034+00:00",
+        "kind": "episodic",
+        "note_index": 0,
+        "source": "facts.txt",
+        "tags": [
+          "facts.txt"
+        ],
+        "text": "1: alpha | 2: deploy key is red | 3: memory demos should be deterministic"
+      }
+    ],
+    "file_summaries": {
+      "facts.txt": {
+        "created_at": "2026-06-24T07:43:04.868519+00:00",
+        "freshness": "64e21720be291631ed252f03c80608b78f2b8dbf2010cb74000148801b437d86",
+        "summary": "1: alpha | 2: deploy key is red | 3: memory demos should be deterministic"
+      }
+    },
+    "files": [
+      "facts.txt"
+    ],
+    "next_note_index": 1,
+    "notes": [
+      "1: alpha | 2: deploy key is red | 3: memory demos should be deterministic"
+    ],
+    "task": "Read facts.txt once and remember the stable deploy fact.",
+    "working": {
+      "recent_files": [
+        "facts.txt"
+      ],
+      "task_summary": "Read facts.txt once and remember the stable deploy fact."
+    }
+  },
+  "memory_state_from_session_file": {
+    "durable_topics": [],
+    "episodic_notes": [
+      {
+        "created_at": "2026-06-24T07:43:04.874034+00:00",
+        "kind": "episodic",
+        "note_index": 0,
+        "source": "facts.txt",
+        "tags": [
+          "facts.txt"
+        ],
+        "text": "1: alpha | 2: deploy key is red | 3: memory demos should be deterministic"
+      }
+    ],
+    "file_summaries": {
+      "facts.txt": {
+        "created_at": "2026-06-24T07:43:04.868519+00:00",
+        "freshness": "64e21720be291631ed252f03c80608b78f2b8dbf2010cb74000148801b437d86",
+        "summary": "1: alpha | 2: deploy key is red | 3: memory demos should be deterministic"
+      }
+    },
+    "files": [
+      "facts.txt"
+    ],
+    "next_note_index": 1,
+    "notes": [
+      "1: alpha | 2: deploy key is red | 3: memory demos should be deterministic"
+    ],
+    "task": "Read facts.txt once and remember the stable deploy fact.",
+    "working": {
+      "recent_files": [
+        "facts.txt"
+      ],
+      "task_summary": "Read facts.txt once and remember the stable deploy fact."
+    }
+  },
+  "prompt_after_contains": {
+    "auto_memory_contract": true,
+    "deploy_fact": true,
+    "relevant_memory_section": true
+  },
+  "report_paths": {
+    "report": "E:\\code_py\\MoralHarness\\pico\\memory-test\\trace-tracking\\demo-workspace\\.pico\\runs\\run_20260624-154304-64b87d\\report.json",
+    "task_state": "E:\\code_py\\MoralHarness\\pico\\memory-test\\trace-tracking\\demo-workspace\\.pico\\runs\\run_20260624-154304-64b87d\\task_state.json",
+    "trace": "E:\\code_py\\MoralHarness\\pico\\memory-test\\trace-tracking\\demo-workspace\\.pico\\runs\\run_20260624-154304-64b87d\\trace.jsonl"
+  },
+  "request": "Read facts.txt once and remember the stable deploy fact.",
+  "retrieval_view": "Relevant memory:\n- 1: alpha | 2: deploy key is red | 3: memory demos should be deterministic",
+  "run_dir": "E:\\code_py\\MoralHarness\\pico\\memory-test\\trace-tracking\\demo-workspace\\.pico\\runs\\run_20260624-154304-64b87d",
+  "session_events_file": "E:\\code_py\\MoralHarness\\pico\\memory-test\\trace-tracking\\demo-workspace\\.pico\\sessions\\20260624-154304-612f93.events.jsonl",
+  "session_file": "E:\\code_py\\MoralHarness\\pico\\memory-test\\trace-tracking\\demo-workspace\\.pico\\sessions\\20260624-154304-612f93.json",
+  "session_memory_events": [
+    {
+      "chars": 27,
+      "created_at": "2026-06-24T07:43:05.215076+00:00",
+      "event": "memory_note_appended",
+      "path": ".pico/memory/logs/2026/06/2026-06-24.md",
+      "session_id": "20260624-154304-612f93",
+      "source": "final_answer"
+    },
+    {
+      "created_at": "2026-06-24T07:43:05.218076+00:00",
+      "event": "auto_dream_started",
+      "session_count": 2,
+      "session_id": "20260624-154304-612f93",
+      "session_ids": [
+        "older-0",
+        "older-1"
+      ],
+      "status": "submitted"
+    },
+    {
+      "changed_files": [
+        ".pico/memory/MEMORY.md",
+        ".pico/memory/topics/project.md"
+      ],
+      "created_at": "2026-06-24T07:43:07.093049+00:00",
+      "event": "dream_consolidated",
+      "memory_dir": "E:\\code_py\\MoralHarness\\pico\\memory-test\\trace-tracking\\demo-workspace\\.pico\\memory",
+      "quiet": true,
+      "session_id": "20260624-154304-612f93",
+      "session_ids": [
+        "older-0",
+        "older-1"
+      ]
+    }
+  ],
+  "trace_memory_events": [
+    {
+      "affected_paths": [],
+      "args": {
+        "end": 20,
+        "path": "facts.txt",
+        "start": 1
+      },
+      "artifact_paths": [],
+      "created_at": "2026-06-24T07:43:04.880542+00:00",
+      "diff_summary": [],
+      "duration_ms": 32,
+      "error_type": "",
+      "estimated_input_tokens": 0,
+      "estimated_output_tokens": 0,
+      "event": "tool_executed",
+      "full_output_artifact": "",
+      "input_chars": 0,
+      "name": "read_file",
+      "output_chars": 0,
+      "parent_span_id": "span_000004",
+      "phase": "tool",
+      "read_only": true,
+      "result": "# facts.txt\n   1: alpha\n   2: deploy key is red\n   3: memory demos should be deterministic",
+      "risk_level": "low",
+      "security_event_type": "",
+      "span_id": "span_000005",
+      "status": "ok",
+      "tool_error_code": "",
+      "tool_status": "ok",
+      "trace_id": "run_20260624-154304-64b87d",
+      "turn_id": "task_20260624-154304-83a353",
+      "workspace_changed": false,
+      "workspace_fingerprint": "b973a9a5e27dda95fc5b191dc5e90b5b48a5dc8de37c5880d3037145add86858"
+    },
+    {
+      "artifact_paths": [],
+      "created_at": "2026-06-24T07:43:05.221077+00:00",
+      "duration_ms": 0,
+      "error_type": "",
+      "estimated_input_tokens": 0,
+      "estimated_output_tokens": 0,
+      "event": "memory_auto_dream_started",
+      "input_chars": 0,
+      "output_chars": 0,
+      "parent_span_id": "span_000009",
+      "phase": "runtime",
+      "session_count": 2,
+      "session_ids": [
+        "older-0",
+        "older-1"
+      ],
+      "span_id": "span_000010",
+      "status": "submitted",
+      "trace_id": "run_20260624-154304-64b87d",
+      "turn_id": "task_20260624-154304-83a353"
+    },
+    {
+      "artifact_paths": [],
+      "changed_files": [
+        ".pico/memory/MEMORY.md",
+        ".pico/memory/topics/project.md"
+      ],
+      "created_at": "2026-06-24T07:43:07.101047+00:00",
+      "duration_ms": 0,
+      "enabled": true,
+      "error_type": "",
+      "estimated_input_tokens": 0,
+      "estimated_output_tokens": 0,
+      "event": "memory_auto_dream_finished",
+      "input_chars": 0,
+      "output_chars": 0,
+      "parent_span_id": "span_000012",
+      "phase": "runtime",
+      "session_count": 2,
+      "session_ids": [
+        "older-0",
+        "older-1"
+      ],
+      "skip_reason": "",
+      "span_id": "span_000013",
+      "status": "finished",
+      "trace_id": "run_20260624-154304-64b87d",
+      "triggered": true,
+      "turn_id": "task_20260624-154304-83a353"
+    }
+  ],
+  "workspace": "E:\\code_py\\MoralHarness\\pico\\memory-test\\trace-tracking\\demo-workspace"
+}
